@@ -5,7 +5,7 @@ const timerEl = document.getElementById("timer");
 let startTime = 0;
 let elapsedTime = 0;
 let timerInterval;
-const targetDate = new Date(2024, 4, 1, 23, 59);
+const targetDate = new Date(2024, 4, 16, 23, 59);
 
 //////////////////////////////////////////////
 //////////////////////////////////////////////
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // Redirect to quiz page
     forgottenPasswordButton.addEventListener('click', function () {
-        window.location.href = 'quiz.html'; // Change the URL to your quiz page
+        window.location.href = '../forgottenPasword/forgottenPassword.html'; // Change the URL to your quiz page
     });
 
     // Validate login form

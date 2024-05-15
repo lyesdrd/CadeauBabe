@@ -120,3 +120,79 @@ main::before {
     border-radius: 10%;
     padding: 30px ;
 }
+
+
+.hidden {
+    display: none;
+    position: relative;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    overflow-y: auto;
+}
+
+.popup p {
+    margin: 0;
+    font-weight: bold;
+    color: #333333;
+}
+.popup img {
+    width: 100%;
+    height: auto;
+    box-shadow: black;
+}
+.popup .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #830000;
+    cursor: pointer;
+}
+
+
+.hidden2 {
+    display: none;
+    position: relative;
+}
+
+.popup2 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+    overflow-y: auto;
+}
+
+.popup2 p {
+    margin: 0;
+    font-weight: bold;
+    color: #333333;
+}
+.popup2 img {
+    width: 100%;
+    height: auto;
+    box-shadow: black;
+}
+.popup2 .close2 {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    color: #830000;
+    cursor: pointer;
+}
