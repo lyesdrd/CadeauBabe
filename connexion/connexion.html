@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+    <title>Anniversary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="headdisplay">
+            <div class="container">
+                <h1>Premire etape la connexion</h1>
+            </div>
+            <timer class="container">
+                <h1>Temps Restant avant suppression du site</h1>
+                <div id="timer">00:00:00</div>
+                <script src="index.js"></script>
+            </timer>
+        </div>
+    </header>
+    <div class="connexion">
+        <h2>Connexion</h2>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="username">Identifiant:</label>
+                <input type="text" id="username" name="username" required>
+                <div id="errorMessage" class="bubble hidden">No, that's not your name.</div>
+                <div id="errorMessage2" class="bubble hidden">That's Better.</div>
+            </div>
+            <div class="input-group">
+                <label for="password">Mot De Passe:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="button" id="showHint">Hint</button>
+            </div>
+            <div class="input-group">
+                <button type="button" id="forgottenPassword">Forgotten Password</button>
+                <button type="submit">Login</button>
+            </div>
+        </form>
+        <div id="hintPopup" class="popup">
+            <span class="close">&times;</span>
+            <p>How much I love you.</p>
+        </div>
+    </div>
+</body>
+
+</html>
